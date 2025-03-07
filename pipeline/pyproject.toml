@@ -5,14 +5,37 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "celery>=5.4.0",
     "cython>=3.0.12",
+    "earthengine-api>=1.5.5",
+    "fake-useragent>=2.0.3",
+    "fiona>=1.10.1",
+    "folium>=0.19.5",
     "gdal==3.8.4",
+    "geemap>=0.35.2",
+    "geojson>=3.2.0",
     "geopandas>=1.0.1",
+    "greenlet>=3.1.1",
+    "httpx>=0.28.1",
+    "ipyleaflet>=0.19.2",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.1",
     "numpy>=2.2.3",
     "opencv-python>=4.11.0.86",
     "pandas>=2.2.3",
     "pillow>=11.1.0",
+    "pydantic[email,timezone]>=2.10.6",
+    "pyproj>=3.7.1",
+    "python-dotenv>=1.0.1",
     "scipy>=1.15.2",
+    "shapely>=2.0.7",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
+lint = [
+    "ruff>=0.9.9",
 ]
