@@ -19,6 +19,7 @@ dependencies = [
     "httpx>=0.28.1",
     "ipyleaflet>=0.19.2",
     "jupyter>=1.1.1",
+    "luigi[toml]>=3.6.0",
     "matplotlib>=3.10.1",
     "numpy>=2.2.3",
     "opencv-python>=4.11.0.86",
@@ -29,6 +30,7 @@ dependencies = [
     "python-dotenv>=1.0.1",
     "scipy>=1.15.2",
     "shapely>=2.0.7",
+    "sqlalchemy>=2.0.38",
     "tqdm>=4.67.1",
 ]
 
